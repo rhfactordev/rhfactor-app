@@ -14,7 +14,9 @@
         <label for="floatingPassword">Senha</label>
       </div>
 
-      <button class="w-100 btn btn-lg btn-primary mb-4" type="submit">Login</button>
+<!--      <button class="w-100 btn btn-lg btn-primary mb-4" type="submit">Login</button>-->
+
+      <router-link class="w-100 btn btn-lg btn-primary mb-4" to="/dashboard">Login</router-link>
 
       <div class="d-grid gap-1">
         <router-link class="btn btn-secondary" to="/forgot-my-password">Esqueceu sua senha, clique aqui!</router-link>

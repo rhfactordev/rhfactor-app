@@ -26,7 +26,10 @@
         </label>
       </div>
 
-      <button class="w-100 btn btn-lg btn-primary mb-4" type="submit">Cadastrar-me</button>
+<!--      <button class="w-100 btn btn-lg btn-primary mb-4" type="submit">Cadastrar-me</button>-->
+
+      <router-link class="w-100 btn btn-lg btn-primary mb-4" to="/create-profile">Criar meu perfil</router-link>
+
 
     </form>
   </div>

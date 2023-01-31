@@ -31,6 +31,16 @@ const routes: Array<RouteRecordRaw> = [
     name: 'useTerms',
     component: () => import('@/views/UseTermsView/index.vue')
   },
+  {
+    path: '/create-profile',
+    name: 'createProfile',
+    component: () => import('@/views/CreateProfileView/index.vue')
+  },
+  {
+    path: '/dashboard',
+    name: 'dashboard',
+    component: () => import('@/views/DashboardView/index.vue')
+  },
 ]
 
 const router = createRouter({
